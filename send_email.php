@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         // recipients & headers
         $mail->setFrom('shashivarun009@gmail.com', 'Contact Form');
-        $mail->addAddress('harishreddy09@gmail.com');
+        $mail->addAddress('hareshreddy09@gmail.com');
         $mail->addReplyTo($email, $name);
 
         // message content
